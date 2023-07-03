@@ -1,0 +1,22 @@
+.addOil {
+  margin: 10px 0;
+  height: 0;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  box-shadow: 1px 1px 24px -2px #d8dbe094;
+  border-radius: 5px;
+}
+
+.addOil.expand {
+  max-width: 10000vh;
+  max-height: 100vh;
+  padding: 16px 25px;
+}
+
+.addOil form {
+  padding: 16px 25px;
+}
+
+.btn_add {
+  margin: 15px 0;
+}

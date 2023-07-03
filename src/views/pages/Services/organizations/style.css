@@ -1,0 +1,59 @@
+.addOil {
+  margin: 10px 0;
+  height: 0;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  box-shadow: 1px 1px 24px -2px #d8dbe094;
+  border-radius: 5px;
+}
+
+.addOil.expand {
+  max-width: 10000vh;
+  max-height: 100vh;
+  padding: 16px 25px;
+}
+
+.addOil form {
+  padding: 16px 25px;
+}
+
+.btn_add {
+  margin: 15px 0;
+}
+
+.ctable-o {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ctable-o table {
+  white-space: nowrap;
+}
+
+.ctable-o table tr td:nth-child(3) {
+  min-width: 178px !important;
+  white-space: wrap;
+  display: block;
+}
+
+.card.p-4 {
+  margin-bottom: 11px !important;
+}
+
+#root
+  > div
+  > div.wrapper.d-flex.flex-column.min-vh-100.bg-light
+  > div.header.header-sticky.mb-4
+  > div:nth-child(1)
+  > ul.header-nav.ms-3
+  > li
+  > ul
+  > li:nth-child(3)
+  > a {
+  width: 100% !important;
+  padding: 10px !important;
+  text-decoration: none !important;
+  color: black !important;
+  display: flex !important;
+  align-items: center !important;
+}
